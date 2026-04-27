@@ -1,6 +1,6 @@
 # Privacy Policy for DishSense.AI
 
-**Last Updated:** April 26, 2026
+**Last Updated:** April 27, 2026
 
 Welcome to DishSense.AI! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application (the "App") and related services (collectively, the "Service"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access or use the App.
 
@@ -30,7 +30,10 @@ We may collect information about you in a variety of ways. The information we ma
 ### D. Push Notifications
 * **Notification Tokens:** With your permission, we register a push notification token (issued by Google Firebase / FCM via Expo) so we can notify you when an asynchronous task you initiated — such as a meal analysis — has completed. We currently send transactional notifications only; we do not send marketing notifications. We store up to 20 tokens per account (one per device); older tokens are pruned automatically. You may opt out of receiving push notifications at any time through your device settings.
 
-### E. AI-Generated Meal Data
+### E. Barcode Product Data
+When you use the barcode scanning feature (available to premium subscribers), you scan a product barcode. The numeric barcode value is transmitted to **Open Food Facts** (world.openfoodfacts.org), a free, open, collaborative product database, to retrieve product name, brand, nutritional information, and a product image. No personal information — not your name, email, account identifier, or location — is transmitted to Open Food Facts as part of this query. If a match is found, the returned product data and image URL are cached in our own database so that subsequent scans of the same barcode do not require a new query. We do not transmit the query results to any other third party.
+
+### F. AI-Generated Meal Data
 For each meal you log, we store the original photo and the AI-generated outputs derived from it: ingredient list, ingredient amounts, calorie and macronutrient estimates, satiety score (1–10), dietary tags (e.g., "Vegan", "Keto"), nutritional flags (e.g., "High Sodium"), processing-level classification (Unprocessed / Minimally Processed / Processed / Ultra-Processed), the URL of the generated "exploded view" image, and a deterministic ingredient-fingerprint hash used to cache results and reduce redundant processing. **All AI-generated values are estimates only — see Section 10.**
 
 ---
@@ -74,6 +77,7 @@ We do not sell your personal information. We may share information we have colle
 * **RevenueCat** — Subscription state management, entitlement reconciliation, and webhook delivery
 * **Google Workspace / Gmail SMTP** — Transactional email delivery (e.g., weekly report PDFs) over TLS-encrypted connections
 * **Google Sign-In** — Authentication
+* **Open Food Facts** (world.openfoodfacts.org) — Barcode product lookup (product name, brand, nutritional data, and product images) for premium barcode scanning. No personal data is transmitted. Product database available under the Open Database License (ODbL); product images contributed by the Open Food Facts community under Creative Commons CC BY-SA.
 
 **Other disclosure circumstances:**
 

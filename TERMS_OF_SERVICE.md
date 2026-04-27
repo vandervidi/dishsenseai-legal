@@ -1,6 +1,6 @@
 # Terms of Service for DishSense.AI
 
-**Last Updated:** April 26, 2026
+**Last Updated:** April 27, 2026
 
 Welcome to DishSense.AI (the "App"). These Terms of Service ("Terms") govern your use of the App and its related services (collectively, the "Service"). By accessing or using DishSense.AI, you agree to be bound by these Terms. If you do not agree, please do not use the App.
 
@@ -72,11 +72,24 @@ For active premium subscribers, the App may compile and email a **weekly PDF nut
 * **The report must not be presented to a healthcare provider as if it were clinical data.** If you wish to discuss your diet with a healthcare professional, please bring your actual food records and let the professional perform their own assessment.
 * **Use of the report and any decisions you make based on it are entirely at your own risk.** DishSense.AI expressly disclaims any liability for health outcomes, adverse events, or damages arising from reliance on the report.
 
-### 3.4 Consult a Professional
+### 3.4 Third-Party Product Data — Barcode Scanning
+
+The barcode scanning feature (available to premium subscribers) retrieves product information — including name, brand, nutritional data, and product images — from **Open Food Facts** (world.openfoodfacts.org), a free, open, collaborative database operated by a non-profit organization and populated by volunteer contributors worldwide.
+
+**DishSense.AI makes no representations or warranties regarding the accuracy, completeness, currentness, or fitness for any purpose of data or images sourced from Open Food Facts.** Specifically:
+
+* Nutritional values, ingredient lists, and product descriptions sourced from Open Food Facts are provided by volunteer contributors and are **not verified or validated by DishSense.AI**. They may be incomplete, outdated, or incorrect.
+* Product images displayed within the App are sourced from Open Food Facts and are the work of their respective contributors, licensed under Creative Commons CC BY-SA. **DishSense.AI does not own, control, endorse, or warrant the accuracy or appropriateness of these images.** Images are displayed as-is from the source database.
+* **DishSense.AI is not responsible for any errors, omissions, or inaccuracies in third-party product data or images**, and is not liable for any decision — including dietary, health, or purchasing decisions — made in reliance on such data.
+* Data is licensed from Open Food Facts under the **Open Database License (ODbL)**; images are contributed under **Creative Commons CC BY-SA 4.0**. See https://world.openfoodfacts.org/terms-of-use for details.
+
+All of the limitations in Sections 3.1, 3.2, and 3.5 apply equally to nutritional data sourced from Open Food Facts.
+
+### 3.5 Consult a Professional
 
 If you have or suspect you have a medical condition, food allergy, dietary restriction, or any health concern that requires nutritional management, **you must consult a licensed physician, registered dietitian, or qualified healthcare professional** before making dietary decisions. The AI estimates and reports provided by this App are not a replacement for professional evaluation or advice.
 
-### 3.5 Use at Your Own Risk
+### 3.6 Use at Your Own Risk
 
 Your use of nutritional estimates, weekly reports, and any dietary decisions you make based on information provided by the App are entirely at your own risk. DishSense.AI expressly disclaims any liability for health outcomes, adverse events, or damages arising from reliance on AI-generated nutritional data or reports.
 
